@@ -50,8 +50,12 @@ main {
 }
 
 #data_creation {
-    font-size: 10px;
+    font-size: 12px;
     color: var(--ct-grey);
     margin-bottom: 10px;
 
+}
+
+#photo_description {
+    font-size: 11px;
 }
