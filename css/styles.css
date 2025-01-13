@@ -7,6 +7,7 @@
 
 * {
     margin: 0;
+
     box-sizing: border-box
 }
 
@@ -58,4 +59,16 @@ main {
 
 #photo_description {
     font-size: 11px;
+}
+
+#important_text {
+    background-color: yellow;
+}
+
+#p_format {
+    margin-top: 30px;
+}
+
+ul {
+    padding-left: 10px;
 }
