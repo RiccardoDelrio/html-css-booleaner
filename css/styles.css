@@ -2,11 +2,16 @@
     --ct-blu1: #4ea0ff;
     --ct-blu2: #20a9e5;
     --ct-blu3: #b1e5f2;
+    --ct-grey: #8e8e8e;
 }
 
 * {
     margin: 0;
     box-sizing: border-box
+}
+
+main {
+    margin-left: 10px;
 }
 
 #site_header {
@@ -26,4 +31,27 @@
     width: 200px;
     height: 60px;
     margin-top: 40px;
+}
+
+#principal-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#sub_title {
+    color: var(--ct-grey);
+}
+
+#article_author {
+    text-decoration: none;
+    color: var(--ct-blu2);
+    font-weight: bold;
+}
+
+#data_creation {
+    font-size: 10px;
+    color: var(--ct-grey);
+    margin-bottom: 10px;
+
 }
