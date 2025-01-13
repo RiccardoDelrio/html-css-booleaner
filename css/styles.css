@@ -89,3 +89,37 @@ table {
 .color-line {
     background-color: var(--ct-blu3);
 }
+
+.promo-container {
+    margin-top: 30px;
+}
+
+#promotion-title {
+    color: var(--ct-grey);
+    font-weight: bold;
+}
+
+.card-promo {
+    width: 300px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    aspect-ratio: 16 / 9;
+}
+
+.item_description {
+    color: white;
+    padding: 10px;
+}
+
+#first-immage-card {
+    background-image: url(../img/monitor.jpg);
+
+}
+
+#second-immage-card {
+
+    background-image: url(../img/graph.jpg);
+
+
+}
