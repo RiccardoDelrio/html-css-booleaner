@@ -61,14 +61,31 @@ main {
     font-size: 11px;
 }
 
-#important_text {
+.important_text {
     background-color: yellow;
 }
 
-#p_format {
+.p_format {
     margin-top: 30px;
+
 }
 
 ul {
     padding-left: 10px;
+}
+
+table {
+    margin-top: 30px;
+    text-align: justify;
+
+}
+
+#tablehead {
+    background-color: var(--ct-blu2);
+    text-wrap: nowrap;
+
+}
+
+.color-line {
+    background-color: var(--ct-blu3);
 }
