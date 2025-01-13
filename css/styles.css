@@ -137,3 +137,8 @@ table {
     color: black;
 
 }
+
+.line-dimension>td,
+.line-dimension>th {
+    min-width: 200px;
+}
